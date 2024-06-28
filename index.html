@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <title>Burglar Recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+    </head>
+    <body>
+        <center>
+        <h1 class="btn btn-info header">B͓̽u͓̽r͓̽g͓̽l͓̽a͓̽r͓̽ ͓̽D͓̽e͓̽t͓̽e͓̽c͓̽t͓̽o͓̽r͓̽</h1>
+        <p id="instructor">𝓘𝓷𝓼𝓽𝓻𝓾𝓬𝓽𝓲𝓸𝓷𝓼 𝓯𝓸𝓻 𝓾𝓼𝓮: 𝓦𝓱𝓮𝓷 𝓽𝓱𝓮 𝓹𝓸𝓹𝓾𝓹 𝓪𝓹𝓹𝓮𝓪𝓻𝓼, 𝓹𝓵𝓮𝓪𝓼𝓮 𝓬𝓵𝓲𝓬𝓴 "𝓐𝓵𝓵𝓸𝔀" 
+            𝓪𝓷𝓭 𝓵𝓮𝓽 𝓾𝓼 𝓾𝓼𝓮 𝔂𝓸𝓾𝓻 𝔀𝓮𝓫𝓬𝓪𝓶 𝓽𝓸 𝓭𝓮𝓽𝓮𝓬𝓽 𝓯𝓸𝓻 𝓯𝓪𝓴𝓮 𝓫𝓾𝓻𝓰𝓵𝓪𝓻𝓼 𝓸𝓻 𝓻𝓮𝓪𝓵 𝓭𝓮𝓽𝓮𝓬𝓽𝓲𝓿𝓮𝓼!</p>
+            <hr>
+            <hr>
+<h2 id="train">Model is trained to identify Lego Life Hacks book and "Yo!" pose</h2>
+<hr>
+            <div id="snapshot"> </div>
+             <button class="btn btn-danger" onclick="picture()">Click to Click a photo</button>
+             <br>
+             <hr>
+             <button class="btn btn-warning" onclick="analysepic()">Click to analyse the photo with accuracy!</button>
+              <p style="font-size: 22px;">Object :<span id="aname"></span>  </p>
+              <p style="font-size: 22px;">Accuracy :<span id="accuracyscore"></span>  </p>
+        </center>
+        
+    </body>
+</html>

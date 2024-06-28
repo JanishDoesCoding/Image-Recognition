@@ -1,0 +1,18 @@
+.header{
+    font-family: cursive;
+    font-size: 70px;
+    color:violet;
+}
+
+#instructor{
+    font-size: 29px;
+    color:blue;
+}
+body{
+    background-color: bisque;
+}
+
+#train{
+    font-size:29px ;
+    color:magenta;
+}
